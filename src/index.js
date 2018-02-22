@@ -5,5 +5,5 @@ sayHello();
 
 $(document).ready( () => {
     $(`h1`).replaceWith(`<h3>Welcome to this webpage!</h3><p>There's nothing special other than the fact you are here.</p>`);
-    $(`p`).append(`<p>If you see me, then JQuery is indeed operational on this site.</p>`);
+    $(`p`).first().append(`<p>If you see me, then JQuery is indeed operational on this site.</p>`);
 });
