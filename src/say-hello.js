@@ -1,3 +1,3 @@
 const hello = () => console.log(`Hello there!`);
 
-module.exports = hello();
+module.exports = hello;
